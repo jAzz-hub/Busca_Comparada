@@ -31,6 +31,36 @@ Alphabet = {
     'Z' : 24
  }
 
+#Adjascency List:
+graph = {
+    'U' : ['P', 'V'],
+    'V' : ['U', 'Q', 'X'],
+    'P' : ['K', 'U'],
+    'K' : ['P'],
+    'Q' : ['L', 'V'],
+    'X' : ['Y', 'V'],
+    'F' : ['G', 'A'],
+    'L' : ['M', 'Q'],
+    'R' : ['M','S'],
+    'E' : ['M', 'S'],
+    'Y' : ['X', 'Z'],
+    'A' : ['B', 'A'],
+    'G' : ['F', 'H'],
+    'M' : ['L', 'R', 'N'],
+    'S' : ['R', 'T'],
+    'Z' : ['Y', 'T'],
+    'B' : ['A'],
+    'H' : ['G', 'C', 'I'],
+    'N' : ['M', 'I','O'],
+    'T' : ['S', 'Z'],
+    'C' : ['H', 'D'],
+    'I' : ['H', 'N'],
+    'O' : ['N'],
+    'D' : ['C', 'E'],
+    'J' : ['E'],
+    'E' : ['D', 'J'],
+}
+
 
 
 def Graph():    #Consumindo o grafo em csv e retornando em matriz
@@ -40,8 +70,8 @@ def Graph():    #Consumindo o grafo em csv e retornando em matriz
 
 
 
-graph = Graph()
+# graph = Graph()
 
-print(graph)
+# print(graph)
 
-print(graph[Alphabet['A']][Alphabet['F']])      # Verificando se existe uma aresta entre 2 vértices
+# print(graph[Alphabet['A']][Alphabet['F']])      # Verificando se existe uma aresta entre 2 vértices
