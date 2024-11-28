@@ -13,7 +13,7 @@ def DFS(Graph):
 
     while stack:
         present_node = stack.pop()
-        print(present_node)
+        #print(present_node)
         track.append(present_node)
         
         for present_node in Graph[present_node]:
@@ -39,7 +39,7 @@ def BFS(Graph):
 
     while queue:
         present_node = queue.popleft()
-        print(present_node)
+        #print(present_node)
         track.append(present_node)
 
         for present_node in Graph[present_node]:
