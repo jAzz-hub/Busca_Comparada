@@ -13,4 +13,4 @@ def measure_algorithm(algorithm, graph):
     
     execution_time = time.time() - start_time
     
-    return execution_time, current, peak
+    return execution_time, result, current, peak
