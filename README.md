@@ -50,10 +50,10 @@ A estrutura do projeto é a seguinte:
 
 ## Arquivos Importantes
 
-- **`data/Maze.csv`: Arquivos que contêm o mapa do labirinto em formato CSV. O mapa é lido pelo programa para a execução dos algoritmos.
-- **`src/Graph.py`**: Contém a implementação para representar o labirinto como um grafo e manipular o mapa do labirinto.
-- **`src/Search.py`**: Contém a implementação dos algoritmos de busca (BFS e DFS).
-- **`src/Measurements.py`**: Fornece funções para medir o desempenho dos algoritmos, incluindo tempo de execução e uso de memória.
+- `data/Maze.csv`: Arquivos que contêm o mapa do labirinto em formato CSV. O mapa é lido pelo programa para a execução dos algoritmos.
+- `src/Graph.py`: Contém a implementação para representar o labirinto como um grafo e manipular o mapa do labirinto.
+- `src/Search.py`: Contém a implementação dos algoritmos de busca (BFS e DFS).
+- `src/Measurements.py`: Fornece funções para medir o desempenho dos algoritmos, incluindo tempo de execução e uso de memória.
 
 ## Contribuições
 
