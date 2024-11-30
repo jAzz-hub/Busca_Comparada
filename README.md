@@ -13,6 +13,10 @@ Este projeto implementa e compara dois algoritmos de busca não informada aplica
   - **Completude**: Verificar se o algoritmo encontra uma solução sempre que ela existir.
   - **Optimalidade**: Determinar se o caminho encontrado é o mais curto.
 
+## Metodologia
+
+O programa calcula uma média de 100 execuções do algoritmo no grafo utilizado e calcula a média e desvio padrão das medidas de interesse (tempo de execução e uso de memória).
+
 ## Instruções de Execução
 
 1. **Instalar as dependências**: 
