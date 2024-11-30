@@ -1,6 +1,6 @@
 ## Descrição do Projeto
 
-Este projeto implementa e compara dois algoritmos de busca não informada aplicados ao **problema do labirinto**. O objetivo é testar a eficiência de diferentes técnicas de busca em um ambiente clássico de busca em grafos. O labirinto é representado por um arquivo de entrada (CSV ou Excel) contendo o mapa do labirinto, e o objetivo do algoritmo é encontrar o caminho mais curto entre o ponto inicial e o ponto de destino.
+Este projeto implementa e compara dois algoritmos de busca não informada aplicados ao **problema do labirinto**. O objetivo é testar a eficiência de diferentes técnicas de busca em um ambiente clássico de busca em grafos.
 
 ## Objetivos
 
