@@ -13,23 +13,6 @@ Este projeto implementa e compara dois algoritmos de busca não informada aplica
   - **Completude**: Verificar se o algoritmo encontra uma solução sempre que ela existir.
   - **Optimalidade**: Determinar se o caminho encontrado é o mais curto.
 
-## Estrutura do Projeto
-
-A estrutura do projeto é a seguinte:
-```
-.
-├── data                        # Arquivos de entrada (labirinto em formatos CSV e Excel)
-│   ├── Maze.csv                # Mapa do labirinto em formato CSV
-├── EC_IA_Trabalho_01_1.pdf     # Documento PDF com as instruções do trabalho
-├── Graph.txt                   # Representação do labirinto em formato de texto
-├── Labirínto_corrigido.PNG     # Imagem do labirinto para visualização
-├── README.md                   # Este arquivo
-└── src
-    ├── Graph.py                # Implementação da representação do grafo (labirinto)
-    ├── main.py                 # Arquivo principal para execução dos algoritmos
-    ├── Measurements.py         # Funções para medições de desempenho
-    ├── Search.py               # Implementação dos algoritmos de busca (BFS e DFS)
-```
 ## Instruções de Execução
 
 1. **Instalar as dependências**: 
@@ -54,6 +37,24 @@ A estrutura do projeto é a seguinte:
 - `src/Graph.py`: Contém a implementação para representar o labirinto como um grafo e manipular o mapa do labirinto.
 - `src/Search.py`: Contém a implementação dos algoritmos de busca (BFS e DFS).
 - `src/Measurements.py`: Fornece funções para medir o desempenho dos algoritmos, incluindo tempo de execução e uso de memória.
+
+## Estrutura do Projeto
+
+A estrutura do projeto é a seguinte:
+```
+.
+├── data                        # Arquivos de entrada (labirinto em formatos CSV e Excel)
+│   ├── Maze.csv                # Mapa do labirinto em formato CSV
+├── EC_IA_Trabalho_01_1.pdf     # Documento PDF com as instruções do trabalho
+├── Graph.txt                   # Representação do labirinto em formato de texto
+├── Labirínto_corrigido.PNG     # Imagem do labirinto para visualização
+├── README.md                   # Este arquivo
+└── src
+    ├── Graph.py                # Implementação da representação do grafo (labirinto)
+    ├── main.py                 # Arquivo principal para execução dos algoritmos
+    ├── Measurements.py         # Funções para medições de desempenho
+    ├── Search.py               # Implementação dos algoritmos de busca (BFS e DFS)
+```
 
 ## Contribuições
 
